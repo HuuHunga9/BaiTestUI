@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,400&display=swap");
+:root {
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+.section1 {
+  background-color: #fffdf4;
+  padding: 70px 0 79px 0;
+}
+.section1-container {
+  max-width: calc(100% - (194px + 194px));
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section1-container__title {
+  color: #374639;
+  font-size: 4.5rem;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.section1-container__text {
+  font-size: 1.9rem;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #3f514b;
+  max-width: 519px;
+  margin-bottom: 40px;
+}
+.section1-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section1-body--item {
+  width: calc(100% / 4);
+}
+.section1-body--item + .section1-body--item {
+  margin-left: 24px;
+}
+.section1-body--item__img {
+  width: 100%;
+  display: block;
+  line-height: 0;
+}
+.section1-body--item__img img {
+  width: 100%;
+  object-fit: cover;
+}
+.section1-body--item__khoi {
+  padding: 18px 0 20px 0;
+}
+.section1-body--khoi__title {
+  font-size: 2rem;
+  letter-spacing: -0.02em;
+  color: #414f42;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.section1-body--khoi__desc {
+  max-width: 308px;
+  font-size: 1.7rem;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #3f514b;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+.section1-body--khoi__price {
+  color: #3f514b;
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-feature-settings: "pnum" on, "lnum" on;
+}
+.section1-body--khoi__price del {
+  font-weight: 400;
+  font-size: 1.3rem;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  font-feature-settings: "pnum" on, "lnum" on, "kern" off;
+  color: #72776c;
+  margin-right: 6px;
+}
+.item-weeek {
+  border-top: 1px solid #ecedec;
+  display: flex;
+  align-items: center;
+  padding: 12px 0 8px 0;
+}
+.item-weeek:last-child {
+  border-bottom: 1px solid #ecedec;
+}
+.item-weeek__title {
+  font-size: 1.5rem;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  font-feature-settings: "pnum" on, "lnum" on, "kern" off;
+  color: #72776c;
+  margin-right: 24px;
+}
+.item-weeek__text {
+  font-size: 1.4rem;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #4e5c58;
+}
+
+/* Section 2 */
+.section2 {
+  background-color: #f5f5f5;
+  padding: 65px 0 64px 0;
+  margin: 116px 0;
+}
+.section2-container {
+  max-width: 1475px;
+  width: 100%;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+.section2-container--item {
+  padding: 50px 0 50px 50px;
+  display: flex;
+}
+.section2--item__img {
+  max-width: 638px;
+  width: 100%;
+  display: block;
+  line-height: 0;
+}
+.section2--item__img img {
+  border-radius: 8px;
+  width: 100%;
+  object-fit: cover;
+}
+.section2--item__about {
+  padding: 19px 147px 0 146px;
+  max-width: calc(100% - 638px);
+  width: 100%;
+}
+.section2--about__text {
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  font-feature-settings: "pnum" on, "lnum" on, "kern" off;
+  color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  display: block;
+  margin-bottom: 28px;
+}
+.section2--about__icon {
+  text-align: center;
+  display: block;
+  margin-bottom: 13px;
+}
+.section2--about__icon i {
+  font-size: 6rem;
+  color: #e0e0e0;
+}
+.section2--about__title {
+  font-size: 3rem;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: #0d0d0d;
+  margin-bottom: 20px;
+  max-width: 494px;
+  width: 100%;
+}
+.section2--about__post {
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: #0d0d0d;
+  margin-bottom: 4px;
+  text-align: center;
+}
+.section2--about__Ar {
+  font-size: 1.5rem;
+  letter-spacing: -0.03em;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+@media (max-width: 1440px) {
+  .section1-container {
+    max-width: max(calc(100% - (194px + 194px)), calc(100% - 10%));
+  }
+  .section2-container {
+    max-width: max(1475px, calc(100% - 10%));
+  }
+}
