@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài Test</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--- 
+        BEM (Block - Element - Modifier)
+        - Ý nghĩa:
+            - Block: Khối
+            - Element: Thành phần trong khối
+            - Modifier: Bổ sung ý nghĩa cho block hoặc element (viết thêm 1 class, để bổ sung ý nghĩa)
+        - Cú pháp
+            - .block
+            - .block__element
+            - .block—modifier
+            - .block__element—modifier 
+        - Khi về màn mobile thì có thể F5 để xem reponsive khi về màn mobile
+    -->
+    <div class="app">
+      <section class="section1">
+        <div class="section1__container">
+          <h2 class="section1__container-title">Online Courses</h2>
+          <p class="section1__container-text">
+            Be yourself at our center, a place where you can encounter the body,
+            mind and spirt balancing and merging them into oneness.
+          </p>
+
+          <div class="section1__phanThan">
+            <div class="section1__phanThan-item">
+              <p class="section1__phanThan-item-img">
+                <img src="images/images_1.jpg" alt="Vinyasa Flow Yoga" />
+              </p>
+
+              <div class="section1__khoi">
+                <h4 class="section1__khoi-title">Vinyasa Flow Yoga</h4>
+                <p class="section1__khoi-desc">
+                  Our aim is to share yoga knowledge with the students and help
+                  them relax
+                </p>
+                <p class="section1__khoi-price"><del>$245</del>$200</p>
+              </div>
+
+              <div class="section1__moTa">
+                <div class="section1__moTa-weeek">
+                  <p class="section1__moTa-weeek-title">WEEK 1</p>
+                  <p class="section1__moTa-weeek-text">Get started & balance</p>
+                </div>
+                <div class="section1__moTa-weeek">
+                  <p class="section1__moTa-weeek-title">week 2</p>
+                  <p class="section1__moTa-weeek-text">Focus on the mind</p>
+                </div>
+                <div class="section1__moTa-weeek">
+                  <p class="section1__moTa-weeek-title">week 3</p>
+                  <p class="section1__moTa-weeek-text">Head relax yoga</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="section1__phanThan-item">
+              <p class="section1__phanThan-item-img">
+                <img src="images/images_2.jpg" alt="Vinyasa Flow Yoga" />
+              </p>
+
+              <div class="section1__khoi">
+                <h4 class="section1__khoi-title">Vinyasa Flow Yoga</h4>
+                <p class="section1__khoi-desc">
+                  Our aim is to share yoga knowledge with the students and help
+                  them relax
+                </p>
+                <p class="section1__khoi-price"><del>$245</del>$200</p>
+              </div>
+
+              <div class="section1__moTa">
+                <div class="section1__moTa-weeek">
+                  <p class="section1__moTa-weeek-title">WEEK 1</p>
+                  <p class="section1__moTa-weeek-text">Get started & balance</p>
+                </div>
+                <div class="section1__moTa-weeek">
+                  <p class="section1__moTa-weeek-title">week 2</p>
+                  <p class="section1__moTa-weeek-text">Focus on the mind</p>
+                </div>
+                <div class="section1__moTa-weeek">
+                  <p class="section1__moTa-weeek-title">week 3</p>
+                  <p class="section1__moTa-weeek-text">Head relax yoga</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="section1__phanThan-item">
+              <p class="section1__phanThan-item-img">
+                <img src="images/images_3.jpg" alt="Vinyasa Flow Yoga" />
+              </p>
+
+              <div class="section1__khoi">
+                <h4 class="section1__khoi-title">Vinyasa Flow Yoga</h4>
+                <p class="section1__khoi-desc">
+                  Our aim is to share yoga knowledge with the students and help
+                  them relax
+                </p>
+                <p class="section1__khoi-price"><del>$245</del>$200</p>
+              </div>
+
+              <div class="section1__moTa">
+                <div class="section1__moTa-weeek">
+                  <p class="section1__moTa-weeek-title">WEEK 1</p>
+                  <p class="section1__moTa-weeek-text">Get started & balance</p>
+                </div>
+                <div class="section1__moTa-weeek">
+                  <p class="section1__moTa-weeek-title">week 2</p>
+                  <p class="section1__moTa-weeek-text">Focus on the mind</p>
+                </div>
+                <div class="section1__moTa-weeek">
+                  <p class="section1__moTa-weeek-title">week 3</p>
+                  <p class="section1__moTa-weeek-text">Head relax yoga</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="section1__phanThan-item">
+              <p class="section1__phanThan-item-img">
+                <img src="images/images_2.jpg" alt="Vinyasa Flow Yoga" />
+              </p>
+
+              <div class="section1__khoi">
+                <h4 class="section1__khoi-title">Vinyasa Flow Yoga</h4>
+                <p class="section1__khoi-desc">
+                  Our aim is to share yoga knowledge with the students and help
+                  them relax
+                </p>
+                <p class="section1__khoi-price"><del>$245</del>$200</p>
+              </div>
+
+              <div class="section1__moTa">
+                <div class="section1__moTa-weeek">
+                  <p class="section1__moTa-weeek-title">WEEK 1</p>
+                  <p class="section1__moTa-weeek-text">Get started & balance</p>
+                </div>
+                <div class="section1__moTa-weeek">
+                  <p class="section1__moTa-weeek-title">week 2</p>
+                  <p class="section1__moTa-weeek-text">Focus on the mind</p>
+                </div>
+                <div class="section1__moTa-weeek">
+                  <p class="section1__moTa-weeek-title">week 3</p>
+                  <p class="section1__moTa-weeek-text">Head relax yoga</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section2">
+        <div class="section2__container">
+          <div class="section2__container-item">
+            <p class="section2__container-item-img">
+              <img src="images/images_4.jpg" alt="" />
+            </p>
+            <div class="section2__about">
+              <p class="section2__about-text">Brand say about us</p>
+              <p class="section2__about-icon"><i class="fa-sharp fa-solid fa-quote-right"></i></p>
+              <h2 class="section2__about-title">Comfortable eartips passively block noise, while soothing sounds help you sleep through the night plastic material professional. </h2>
+              <p class="section2__about-post">Post Malone</p>
+              <p class="section2__about-Ar">Artist</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+      let x = $(".section1__phanThan")[0].clientWidth;
+      if (x < 1024) {
+        $(".section1__phanThan")[0].classList.add("section1__phanThan-silder");
+      } else {
+        $(".section1__phanThan")[0].classList.remove(
+          "section1__phanThan-silder"
+        );
+      }
+
+      $(".section1__phanThan-silder").slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              infinite: false,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 991,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 820,
+            settings: {
+              slidesToShow: 2.2,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ],
+      });
+    </script>
+  </body>
+</html>
